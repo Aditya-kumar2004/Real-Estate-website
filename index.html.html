@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       * {
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-image:url("frames-for-your-heart-mR1CIDduGLc-unsplash.jpg") ; 
+            height: 100vh;
+            width: 100vw; 
+            background-repeat: no-repeat;
+            background-size: 100vw 246vh;
+        }
+        .a{
+            display: flex;
+            /* justify-content: space-between; */
+            justify-content: center;
+            color: whitesmoke;
+            /* align-items: start; */
+            /* display: inline; */
+            /* border: 2px black; */
+        }
+        /* .b1{
+            /* background-color: red; */
+            /* height: 10vh; 
+            width: 10vw;
+            margin: 10px; */
+            /* justify-content: center; */
+            
+        /* }  */
+        button{
+            height:7vh ;
+            width: 8vw;
+            margin: 2px;
+            background-color:transparent;
+            border: 2px transparent;
+            padding: 2px; 
+            /* border-radius: 2px; */
+            font-size: 20px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+         } 
+        button:hover{
+            background-color: blanchedalmond;
+        }
+        .image1{
+            display: flex;
+            height: 22vh;
+            width: 10vw;
+            justify-content:flex-start;
+            position: relative;
+            top: -72px;
+            left: -24px;
+        }
+        .c1{
+            display: flex;
+            /* size: 100px; */
+            justify-content: center;
+            /* align-content: center; */
+            /* margin: 10px; */
+            font-size: 40px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: black;
+            position: relative;
+            top: -93px;
+            left: 0;
+        }
+        .c2{
+            display: flex;
+            /* size: 100px; */
+            justify-content: center;
+            /* align-content: center; */
+            /* margin: 10px; */
+            font-size: 40px;
+        }
+        #c3{
+            display: flex;
+            height: 56px;
+            width: 160px;
+            justify-content:center ;
+            /* border-radius: 4px; */
+            /* box-shadow: 2px; */
+            background-color: blanchedalmond;
+            border-radius: 8px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 18px;
+            transition-duration:1s ;
+
+        }
+        #c3:hover{
+            width:200px;
+        }
+        .d{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            position: relative;
+            background:transparent;
+            height: 68vh;
+            width: 32vw;
+            /* justify-content:center; */
+            top: -115px;
+            left: 483px;
+            /* right: 0;
+            bottom: 0; */
+            box-shadow: 5px;
+            border-radius: 8px;
+            border: 2px solid rgba(255,255,255,.2);
+            backdrop-filter: blur(2px);
+            box-shadow: 0 0 10px rgba(0,0,0,.2) ;
+
+        }
+        
+        .d4{
+            display: flex;
+            justify-content: center;
+            /* justify-content: flex-start; */
+            position: relative;
+            top: -67px;
+            left: -11px;
+            font-size: 43px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            /* border-radius: 8px; */
+            /* background-color: blanchedalmond; */
+        }
+        #d1{
+            display: flex;
+            justify-content: center;
+            position: relative;
+            top: -26px;
+            left: 39px;
+            /* height: 10px;
+            width: 10px; */
+            height: 41px;
+            width: 350px;
+            border-radius: 8px;
+        }
+        #d2{
+            display: flex;
+            justify-content: center;
+            position: relative;
+            top: -4px;
+            left: 38px;
+            height: 41px;
+            width: 350px;
+            border-radius: 8px;
+        }
+        #d3{
+            display: flex;
+            justify-content: center;
+            position: relative;
+            top: 4px;
+            left: 73px;
+        }
+        #d5{
+            display: flex;
+            justify-content: center;
+            position: relative;
+            top: 25px;
+            left: 36px;
+            height: 52px;
+            width: 258px;
+            background-color: blanchedalmond;
+            border-radius: 8px;
+            font-size: 30px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            transition-duration:1s ;
+        }
+        #d5:hover{
+            width:350px ;
+        }
+        #d6{
+            position: relative;
+            top: -12px;
+            left: 60px;
+        }
+        #d3{
+            position: relative;
+            top: 4px;
+            left: 38px;
+        }
+        .e{
+            display: flex;
+            height: 260px;
+            width: 788px;
+            /* border: 2px solid black;
+            background-color: aquamarine; */
+            word-wrap: break-word;
+            position: relative;
+            top: 3px;
+            left: 225px;
+            /* justify-content: center; */
+            /* font-stretch:condensed ; */
+        }
+        .e2{
+            display: grid;
+            justify-content: center;
+            font-size: 20px;
+            font-style: italic;
+        }
+        .f{
+            display: flex;
+            /* flex-direction: column; */
+            justify-content: space-around;
+            position: relative;
+            top: 0;
+            left: 0;
+        }
+        img{
+            height: 150px;
+            width: 217px;
+            transition-duration: 1s;
+            /* position: relative;
+            top: 17px;
+            left: 34px; */
+
+        }
+        .f2{
+            background-color: blanchedalmond;
+            height: 305px;
+            width: 217px;
+            border-radius: 20px;
+            transition-duration:1s ;
+
+        }
+        figcaption{
+            position: relative;
+            top: 37px;
+            left: 30px;
+        }
+        .g{
+            position: relative;
+            top: 0px;
+            left: 0px;
+        }
+        .f2:hover{
+            /* width: 250px; */
+            height: 350px;
+            background-color: whitesmoke;
+            /* transform: scale(1.5); */
+            font-size: 19px;
+            /* transform: scale(1.5);
+            transform: scale(1.5); */
+            /* background-color: black; */
+        }
+        /* img:hover{
+            width: 250px;
+            /* height: 350px; */
+
+        /* } */
+
+    </style>
+</head>
+<body>
+    <div class="a">
+        
+        <div class="b1"><button type="button">Home</button></div>
+        <a href="Aboutus.html" target="_blank"> <div class="b1"><button type="button">About</button></div></a>
+        <div class="b1"><button type="button">Mega Menu</button></div>
+        <a href="property.html" target="_blank"><div class="b1"><button type="button">Gallery</button></div></a>
+        <a href="blog.html" target="_blank"><div class="b1"><button type="button">Blog</button></div></a>
+        <div class="b1"><button type="button">Contact</button></div>
+        <!-- <div class="c1">Sell your home with confidence <br><b>Harder</b> is making it simple to sell your home</div> -->
+    </div>
+    <div class="image1"><img src="download-removebg-preview.png"></div>
+    <div class="c1"><p>Sell your home with confidence <br>
+<b>HARDER</b> is making it simple to sell your home
+    <input type="button" value="Free Consultation" id="c3">
+    </p></div>
+    <!-- <div class="c2"><pre>     </pre></div> -->
+    <!-- <input type="button" value="Free Consultation" id="c3"> -->
+    <div class="d">
+    <div class="d4">LOGIN</div>
+        <form action="">
+    <!-- <label for="d1">Username</label> -->
+            <input type="text" id="d1" name="d1" placeholder= "Username" >
+    <!-- <label for="d2">Password</label> -->
+            <input type="password" id="d2" name="d2" placeholder="Password" >
+            <input type="checkbox" id="d3" name="d3" >
+            <label for="d3" id="d6">Remember me</label>
+            <input type="button" id="d5" value="LOGIN">
+        </form>
+    </div>
+    <!-- <div class="e">
+        <div class="e1"><div class="e2">ABOUT US</div>
+Harder is Founded in 1971 and headquartered in Rochester, Minnesota, Paramark Real Estate Services provides premium Commercial and Residential Property Management, Facility, and Commercial Brokerage Services for private investors, institutions, corporations,not-for-profits, home owner associations, and cooperatives.We are proud of our company's many accomplishments and our clients appreciate the fact Paramark is a closely held Corporation owned and operated by its shareholders.  We employ over 200 team members and currently operate in Minnesota, Iowa, Wisconsin, and Illinois. Paramark's integrated, team-based approach facilitates effective, responsive communication and our proactive approach to management ensures that the operational and financial performance of your property is always our highest priority.Paramark is recognized by the Institute of Real Estate Management (IREM) as an Accredited Management Organization (AMO ®) and is one of only approximately 500 such firms worldwide. This designation recognizes excellence in Real Estate Management firms and is the result of having achieved the highest levels of performance, experience, and financial stability in our industry.  
+        </div> -->
+    <!-- </div> -->
+    <div class="f">
+        <div class="f2">
+            <a href="property.html"></a>
+        <figure>
+            <img src="dillon-kydd-XGvwt544g8k-unsplash.jpg" style="border-radius: 20px 20px 0px 0px; position: sticky;">
+            <a href="property.html"></a>
+            <figcaption>
+                M3M Capitalwalk <br>
+                Sector 113,Gurgaon <br>
+                2,3,4 BHK Business <br>Center <br>
+                300-3021 Sq.ft. <br>
+                ₹ 1.85 - 3.46 Cr <br>
+            </figcaption>
+        </div>
+        <div class="f2">
+            <img src="greg-rivers-rChFUMwAe7E-unsplash.jpg" style="border-radius: 20px 20px 0px 0px;">
+            <figcaption>
+                M3M Capital <br>
+                Sector 113,Gurgaon <br>
+                2,3,4 BHK Flats <br>
+                1310-2500 Sq.ft. <br>
+                ₹ 1.63 - 2.97 Cr <br>
+            </figcaption>
+        </div>
+        <div class="f2">
+            <img src="naomi-hebert-MP0bgaS_d1c-unsplash.jpg" style="border-radius: 20px 20px 0px 0px;" >
+            <figcaption>
+                M3M Antalya Hills <br>
+                Sector 79,Gurgaon <br>
+                2,3 BHK Builder Floors <br>
+                1190-1540 Sq.ft. <br>
+                ₹ 1.04 - 1.46 Cr <br>
+            </figcaption>
+        
+        </div>
+        <div class="f2">
+            <img src="stephan-bechert-yFV39g6AZ5o-unsplash.jpg" style="border-radius: 20px 20px 0px 0px;">
+            <figcaption>
+                Cyberthum <br>
+                Sector 140A,Noida <br>
+                1 BHK Office Space <br>
+                26-418367 Sq.ft. <br>
+                ₹ 6.50 Lac <br>
+            </figcaption>
+        </div>
+        </figure>
+    </div>
+    <div class="e">
+        <div class="e1"><div class="e2">ABOUT US</div>
+Harder is Founded in 1971 and headquartered in Rochester, Minnesota, Paramark Real Estate Services provides premium Commercial and Residential Property Management, Facility, and Commercial Brokerage Services for private investors, institutions, corporations,not-for-profits, home owner associations, and cooperatives.We are proud of our company's many accomplishments and our clients appreciate the fact Paramark is a closely held Corporation owned and operated by its shareholders.  We employ over 200 team members and currently operate in Minnesota, Iowa, Wisconsin, and Illinois. Paramark's integrated, team-based approach facilitates effective, responsive communication and our proactive approach to management ensures that the operational and financial performance of your property is always our highest priority.Paramark is recognized by the Institute of Real Estate Management (IREM) as an Accredited Management Organization (AMO ®) and is one of only approximately 500 such firms worldwide. This designation recognizes excellence in Real Estate Management firms and is the result of having achieved the highest levels of performance, experience, and financial stability in our industry.  
+        </div>
+    </div>
+    <hr>
+    <div class="g">
+        <img src="Screenshot 2023-10-24 215712.png" style="height: 340px;width: 1278px;">
+    </div>
+</body>
+</html>
